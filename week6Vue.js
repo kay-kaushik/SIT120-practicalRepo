@@ -5,5 +5,6 @@ var app = new Vue({
         pass:"pass",
         checkedItems:[],
         selected:"",
+        selectednumber:"",
     },
 });

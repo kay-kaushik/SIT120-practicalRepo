@@ -29,6 +29,11 @@
             <option>prospective staff/student</option>
         </select>
         <p>{{ selected }}</p>
+        <select v-model="selectednumber">
+            <option disabled value="">Seleect one from the following!</option>
+            <option v-for="n in 10">{{ n }}</option>
+        </select>
+        <p>{{ selectednumber }}</p>
 
     </div>
     <script src="https://cdn.jsdelivr.net/npm/vue@2.7.10/dist/vue.js"></script>
